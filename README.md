@@ -55,6 +55,15 @@ python3 auth_log_parser.py --log sample_auth.log --top 10
 - Top targeted users
 - Top source IPs
 
+### Test
+
+```bash
+python3 -m pip install pytest
+python3 -m pytest -q
+```
+
+Pull requests run the same characterization tests on Python 3.9 and 3.12 through GitHub Actions.
+
 ---
 
 ## Legal / Ethical Note
